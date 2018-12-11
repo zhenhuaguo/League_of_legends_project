@@ -1,0 +1,48 @@
+Commands available:
+
+(NOTE: all the commands are case-insensitive)
+
+
+list regions
+	Description: Lists all the regions in the league of legends for users to reference
+
+
+list types
+	Description: Lists all the champion types in the league of legends for users to 
+	reference
+
+
+list champs
+	Description: Lists all the champions available based on the parameters.
+
+	Options:
+		* range=<first_letter> [default: a-z]
+		Description: Specifies the first letter of the champion name which to limit 
+		the results. 
+		
+		* region=<champ_region> [default: all]
+		Description: Specifies a region within which to limit the results
+
+		* type=<champ_type> [default: all]
+		Description: Specifies the type of champions to limit the results
+
+
+show champ <champ_name>
+	Description: Allow users to see a list of details information of a specific champion, 
+	this includes the type of the champion, the quote of the champion, the detail_url of 
+	the champion
+	
+
+show skills <champ_name>
+	Description: List all the skills the champion have.
+
+
+show props <champ_name> 
+	Description: List all the panel properties of the champion.
+
+compare <champA_name> <champB_name>
+	Description: List all the panel props for both champions also use plotly to show the 
+	panel props based on the level search.
+	Options: 
+		* level=<level> [default: 1]
+		Desctription: Specifies the level of the champions which to limits the results
