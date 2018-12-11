@@ -37,6 +37,7 @@ Project using Selenium, Beatiful Soup, Sqlite3 and Plotly API to scrape data and
     ``` 
     $ python league_of_legends.py
   - Based on the prompt, do the search and have fun.
+
 [//]: # 
    [Selenium]: <https://www.seleniumhq.org/>
    [Chromedriver]:<http://chromedriver.chromium.org/>
